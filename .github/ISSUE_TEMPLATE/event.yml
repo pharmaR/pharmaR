@@ -67,5 +67,5 @@ body:
 
         - [ ] Create milestone for event
         - [ ] Convert preparation checklist to issues
-          - [ ] Assign all issues to milestone
+              - [ ] Assign all issues to milestone
         - [ ] Assign appropriate target dates for all milestone issues
