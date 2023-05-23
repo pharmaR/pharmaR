@@ -1,0 +1,71 @@
+name: Event Planning Checklist
+description: Kick off a new event with an event planning to-do list
+title: "[Event]: "
+labels: ["event", "triage"]
+body:
+  - type: markdown
+    attributes:
+    value: |
+      Thanks for kicking off a new event proposal.
+
+      @pharmaR/ws-communications will triage this event and kick off any 
+      follow-up planning.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Event Summary
+      description: |
+        An overview of the event objectives. Please `@tag` anyone who needs to 
+        be involved.
+      placeholder: Event purpose
+
+  - type: input
+    id: date
+    attributes:
+      label: Target Date
+      description: Preferred date or timeframe for the event
+
+  - type: textarea
+    id: todo-list
+    attributes:
+      label: Tasks
+      description: |
+        Prepopulated task list. Please prefer consistency, but feel free to 
+        modify when the default task list isn't appropriate for this event.
+      placeholder: Event tasks
+      value: |
+        ### Event Preparation Timeline
+
+        _By target due date_
+
+        #### 28 Days Prior
+
+        - [ ] [Planning] Title & abstract prepared
+
+        - [ ] [Marketing] Pass along title and abstract info to R Consortium 
+              marketing team to advertise
+        - [ ] [Marketing] Send out "Mark your calendars" email
+
+        #### 14 Days Prior
+
+        - [ ] [Planning] Event materials prepared
+        - [ ] [Planning] Event trial run
+
+        #### 7 Days Prior
+
+        - [ ] [Marketing] Send out reminder email
+        - [ ] [Everyone] Share on social media
+
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        **Organizer tasks for** @pharmaR/ws-communications
+
+        - [ ] Create milestone for event
+        - [ ] Convert preparation checklist to issues
+          - [ ] Assign all issues to milestone
+        - [ ] Assign appropriate target dates for all milestone issues
