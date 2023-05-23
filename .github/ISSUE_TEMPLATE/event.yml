@@ -5,11 +5,11 @@ labels: ["event", "triage"]
 body:
   - type: markdown
     attributes:
-    value: |
-      Thanks for kicking off a new event proposal.
+      value: |
+        Thanks for kicking off a new event proposal.
 
-      @pharmaR/ws-communications will triage this event and kick off any 
-      follow-up planning.
+        @pharmaR/ws-communications will triage this event and kick off any 
+        follow-up planning.
 
   - type: textarea
     id: description
