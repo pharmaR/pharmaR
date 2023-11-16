@@ -2,12 +2,9 @@
 
 ### To an analyst
 
-### To quality
+### To quality profession
 
-## What can you validate
-
-## What can't you validate
-
+## What can('t) you validate?
 
 ## Can you validate a language?
 
@@ -16,7 +13,7 @@
 
 
 ## How does risk come into play with validation
-  We cannot test everything. 
+  We cannot test everything. Some of our expectations are implicit and some are explicit.
   We test more when system failure causes more damage (e.g. patient death, patient harm, everything else).
 
 ## What do we really care about w.r.t. validation
