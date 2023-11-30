@@ -1,8 +1,13 @@
 ## What is validation
+Simply put, validation is the act of documenting evidence that a system meets a pre-specified set of expectations.
 
-### To an analyst
+21 CFR Part 11 is the rule that is referenced as governing electronic system validation. However, 21CFR Part 11, I think it was written with a focus on data collection and storage and not analysis. 
+
+### To an analyst/statistician/data scientist
+Functions/methods are accurate
 
 ### To quality profession
+Change management control
 
 ## What can('t) you validate?
 
