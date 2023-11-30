@@ -4,14 +4,16 @@ Simply put, validation is the act of documenting evidence that a system meets a 
 21 CFR Part 11 is the rule that is referenced as governing electronic system validation. However, 21CFR Part 11, I think it was written with a focus on data collection and storage and not analysis. 
 
 ### To an analyst/statistician/data scientist
-Functions/methods are accurate
+Functions/methods are numerically accurate
 
 ### To quality profession
-Change management control
+Change management control against a broad set of requirements, i.e. user authentication, end-user requirements/expectations.
 
 ## What can('t) you validate?
+You cannot validate with out a use case. 
 
-## Can you validate a language?
+### Can you validate a language?
+We cannot validated a language (e.g. R, Python, SAS, etc). We can validate the language's interpreter. For example, in R does `hist(rnorm(100, 1,0))` generate histogram plot. 
 
 
 ## What do you actually validate?
