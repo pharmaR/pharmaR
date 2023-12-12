@@ -7,7 +7,7 @@ There is also a sentiment that open source software cannot be validated, because
 
 ## How do you validate a system
 
-Validaiting system usually has the following steps. 
+Validaiting a system usually has the following steps. 
 1) Generate user, functional, design requirements.
 2) Perform a risk assessment
 2) Generate functional and design specifications.
@@ -22,7 +22,7 @@ Validaiting system usually has the following steps.
 You cannot validate a system with out a use case. The use case could be broad: "A user must be able to perform statistical calculations with data. It could be narrow: "The system must serve an API endpoint that calculates the mean of upto 250 numbers with to the 7th decimal place." A system, will usually have many user requirements, ranging from end user requirements to lower level infrastructure requirements, e.g. user/netowrk authentication, data encryption etc.
 
 ### Can you validate a language?
-We cannot validated a language (e.g. R, Python, SAS, etc). We can validate the language's interpreter. For example, in R does `hist(rnorm(100, 1,0))` generate histogram plot. 
+We cannot validated a language (e.g. R, Python, SAS, etc). We can validate the language's interpreter. For example, in R does `hist(rnorm(100, 1,0))` generate histogram plot? 
 
 
 ## What do you actually validate?
@@ -41,5 +41,10 @@ We cannot validated a language (e.g. R, Python, SAS, etc). We can validate the l
   Change management control. Who, what, why and when the system was changed. Change management control against a broad set of requirements, i.e. user authentication, end-user requirements/expectations. This group almost doesn't care about what Statisticans/analysts care about. That is to say, if a user requirement stats that the system must compute 2+2=5. So long as that expectation can be met then the sytem can be validated. Furthermore, 
 
 ### The FDA
-  Quality assurance
+
+#### Statistical Review
+  Statisical reviewers care about the same thing other statisticians care about, the right method for the right analysis. In general, they are less worried about change management.
+
+#### Audit Inspection team
+  Regulatory auditors care about the same things a companies quality groups cares about: robust documentation of change management and access controls, etc. They do not care so much about whether a method or package is the right one so long as there is documentation surrounding its addition/modificaton in the environment. 
 
