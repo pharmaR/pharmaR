@@ -1,9 +1,11 @@
 ## What is validation
-Simply put, validation is the act of documenting evidence that a system meets a pre-specified set of expectations. This means that off-the-shelf software does not come pre-validated. Furthermore, any software can be validated, given you have the resources to do so. 
+
+Simply put, validation is the act of documenting evidence that a system meets a pre-specified set of expectations. For example, if we were to validate an app that takes data from a webform, we might specifiy that the This means that off-the-shelf software does not come pre-validated. Furthermore, any software can be validated, given you have the resources to do so. 
 
 There is also a sentiment that open source software cannot be validated, because it can be changed by anyone. While it is true that open source software can be modified by anyone, this does not mean that official sources of OS software have to accept or incorporate someone's changes. In fact many validated systems have built on open source software for many years if not decades (e.g. linux, mysql, etc.) Furthermore, once installed, OS software is just as secure as propriatary software in terms of access to binaries etc.
 
 21 CFR Part 11 is the rule that is referenced as governing electronic system validation. However, 21CFR Part 11, I think it was written with a focus on data collection and storage and not analysis. 
+
 
 ## How do you validate a system
 
@@ -22,7 +24,7 @@ Validaiting a system usually has the following steps.
 You cannot validate a system with out a use case. The use case could be broad: "A user must be able to perform statistical calculations with data. It could be narrow: "The system must serve an API endpoint that calculates the mean of upto 250 numbers with to the 7th decimal place." A system, will usually have many user requirements, ranging from end user requirements to lower level infrastructure requirements, e.g. user/netowrk authentication, data encryption etc.
 
 ### Can you validate a language?
-We cannot validated a language (e.g. R, Python, SAS, etc). We can validate the language's interpreter. For example, in R does `hist(rnorm(100, 1,0))` generate histogram plot? 
+We cannot validate a language (e.g. R, Python, SAS, etc). We can validate the language's interpreter. For example, in R does `hist(rnorm(100, 1,0))` generate histogram plot? 
 
 
 ## What do you actually validate?
