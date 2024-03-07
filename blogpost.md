@@ -50,3 +50,6 @@ We cannot validate a language (e.g. R, Python, SAS, etc). We can validate the la
 #### Audit Inspection team
   Regulatory auditors care about the same things a companies quality groups cares about: robust documentation of change management and access controls, etc. They do not care so much about whether a method or package is the right one so long as there is documentation surrounding its addition/modificaton in the environment. 
 
+  Reference: https://www.fda.gov/media/161521/download
+  
+
