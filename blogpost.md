@@ -20,6 +20,10 @@ Validaiting a system usually has the following steps.
 5) test system and capture evidence of successful test case execution
 6) deploy to production environment.
 
+## What is the "system"?
+
+Again the system is a matter of perspective. A statistician, statistical programmer might think of the system as merely an IDE of choice (e.g. Posit Workbench or SAS Studio) plus the path to their data (e.g. an NFS mount), while a data scientist might think of the system as all of the above plus an orchestration layer (e.g. docker/slurm) and maybe some peripheral components (e.g. database server). A sysadmin moght think of the system as all of the above plus the ec2 instances/servers in use, the VPC/subnet, storage drives, authentication layer, etc. 
+
 ### What can('t) you validate?
 You cannot validate a system with out a use case. The use case could be broad: "A user must be able to perform statistical calculations with data. It could be narrow: "The system must serve an API endpoint that calculates the mean of upto 250 numbers with to the 7th decimal place." A system, will usually have many user requirements, ranging from end user requirements to lower level infrastructure requirements, e.g. user/netowrk authentication, data encryption etc.
 
