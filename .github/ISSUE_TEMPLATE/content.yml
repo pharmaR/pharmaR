@@ -1,0 +1,70 @@
+name: Content Idea
+description: Propose an idea for content (blog post, social media, newsletter, etc.)
+title: "[Content]: "
+labels: ["content", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a new content idea.
+
+        @pharmaR/ws-communications will triage this and follow up on
+        next steps.
+
+  - type: dropdown
+    id: content-type
+    attributes:
+      label: Content Type
+      description: What kind of content is this?
+      options:
+        - Blog post
+        - Social media
+        - Website page
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Content Summary
+      description: |
+        An overview of the idea, its purpose, and target audience. Please
+        `@tag` anyone who needs to be involved.
+      placeholder: What's the idea, and why does it matter?
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Target Date
+      description: Preferred date or timeframe for publishing
+
+  - type: textarea
+    id: todo-list
+    attributes:
+      label: Tasks
+      description: |
+        Prepopulated task list. Feel free to modify when the default task
+        list isn't appropriate for this content.
+      placeholder: Content tasks
+      value: |
+        ### Content Preparation Timeline
+
+        - [ ] [Planning] Draft outline/topic approved
+        - [ ] [Planning] Draft content written
+        - [ ] [Review] Content reviewed for accuracy
+        - [ ] [Marketing] Content scheduled for publishing
+        - [ ] [Marketing] Share on social media
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        **Organizer tasks for** @pharmaR/ws-communications
+
+        - [ ] Assign owner
+        - [ ] Convert preparation checklist to issues (if needed)
+        - [ ] Assign appropriate start and target dates
