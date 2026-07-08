@@ -17,11 +17,11 @@ body:
       label: Content Type
       description: What kind of content is this?
       options:
-        - Email
-        - Blog post
-        - Social media
-        - Website page
-        - Other
+        - label: Email
+        - label: Blog post
+        - label: Social media
+        - label: Website page
+        - label: Other
     validations:
       required: true
 
