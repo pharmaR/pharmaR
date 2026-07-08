@@ -15,13 +15,13 @@ body:
     id: content-type
     attributes:
       label: Content Type
-      description: What kind of content is this?
+      description: What kind of content is this? (Select Multiple, as needed)
       options:
         - label: Email
         - label: Blog post
         - label: Social media
         - label: Website page
-        - label: Other
+        - label: Other (tell us in 'content summary')
     validations:
       required: true
 
