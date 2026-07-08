@@ -11,12 +11,13 @@ body:
         @pharmaR/ws-communications will triage this and follow up on
         next steps.
 
-  - type: dropdown
+  - type: checkboxes
     id: content-type
     attributes:
       label: Content Type
       description: What kind of content is this?
       options:
+        - Email
         - Blog post
         - Social media
         - Website page
